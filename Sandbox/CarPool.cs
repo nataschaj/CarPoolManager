@@ -20,8 +20,9 @@ namespace Sandbox
         public void AddCarToPool(Car aCar)
         {
             // Complete this method
-            carList.Add(aCar.GetLicensePlate, aCar);
+            carList.Add(aCar.GetLicensePlate(), aCar);
         }
+        
 
         // Remove the car with the given license plate from the car pool.
         // If the license plate does not exist, do nothing
