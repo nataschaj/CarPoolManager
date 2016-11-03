@@ -29,6 +29,10 @@ namespace Sandbox
         public void RemoveCarFromPool(String licensePlate)
         {
             // Complete this method
+            if (licensePlate == null)
+            {
+                carList.Remove(licensePlate);
+            }
         }
 
         // If a Car object corresponding to the given license plate exists, return it.
